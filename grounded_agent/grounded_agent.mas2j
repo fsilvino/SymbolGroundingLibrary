@@ -1,0 +1,12 @@
+MAS grounded_agent {
+
+	infrastructure: Centralised
+
+	environment: grounded_agent.Ambiente
+
+	agents:
+		agent1 card_maker_agent;
+
+	aslSourcePath:
+		"src/asl";
+}

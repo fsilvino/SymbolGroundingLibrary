@@ -1,0 +1,12 @@
+MAS sgmodel_baseline {
+
+	infrastructure: Centralised
+
+	environment: SGEnvironmentBaseline
+
+	agents:
+		agent1 smartcoffeemachine_agent;
+
+	aslSourcePath:
+		"src/asl";
+}
